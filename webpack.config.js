@@ -9,6 +9,7 @@ module.exports = {
   output: {
     publicPath: "auto",
     clean: true,
+    filename: "[name].js",
     path: path.resolve(__dirname, "dist"),
     uniqueName: "authApp",
   },
